@@ -1,18 +1,18 @@
-# swarp
-Remote arp tool for HPE switches. 
+# swarp - Remote arp tool for HPE switches. 
 
-# Swarp - switch arp tool (for HP Switches) @2017
+Swarp - switch arp tool (for HP Switches) @2017
+
 Python: V3
 
 OpSys: Windows
 
 LibDep: 
 
-paramiko, getopt
+    paramiko, getopt
 
 Instalação das dependências:
 
-pip install paramiko getopt
+    pip install paramiko getopt
 
 Utilização: 
 
