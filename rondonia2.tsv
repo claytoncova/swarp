@@ -1,5 +1,5 @@
 id	categoria	comentario	comentario2
-1100015	info	"teste \n bacana"
+1100015	info	"teste bacana"
 1100023	mudanca	"teste"	"bacana"
 1100031	mudanca	"teste"	"bacana"
 1100049	alerta	"teste"	"bacana"
@@ -14,7 +14,7 @@ id	categoria	comentario	comentario2
 1100130	info	"teste"	"bacana"
 1100148	alerta	"teste"	"bacana"
 1100155	alerta	"teste"	"bacana"
-1100189	critico	"teste"	"bacana"
+1100189	critico	"teste \\n bacana"
 1100205	info	"teste"	"bacana"
 1100254
 1100262
