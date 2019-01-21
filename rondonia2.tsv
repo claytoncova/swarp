@@ -1,5 +1,5 @@
 id	categoria	comentario	comentario2
-1100015	info 'Teste de comentário'
+1100015	info 'Teste de comentário' 'bacana!'
 1100023	mudanca	"Teste de comentário, bacana legal!"
 1100031	mudanca	"Teste de comentário bacana legal!"
 1100049	alerta	"Teste de comentário bacana legal!"
