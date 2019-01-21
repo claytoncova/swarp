@@ -1,48 +1,48 @@
 id	categoria	comentario	comentario2
-1100015	info	"teste"	"bacana"
-1100023	mudanca	"teste"	"bacana"
-1100031	mudanca	"teste"	"bacana"
-1100049	alerta	"teste"	"bacana"
-1100056	info	"teste"	"bacana"
-1100064	info	"teste"	"bacana"
-1100072	critico	"teste"	"bacana"
-1100080	alerta	"teste"	"bacana"
-1100098	mudanca	"teste"	"bacana"
-1100106	critico	"teste"	"bacana"
-1100114	info	"teste"	"bacana"
-1100122	alerta	"teste"	"bacana"
-1100130	info	"teste"	"bacana"
-1100148	alerta	"teste"	"bacana"
-1100155	alerta	"teste"	"bacana"
-1100189	critico	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	""
-1100205	info	"teste"	"bacana"
-1100254
-1100262
-1100288
-1100296
-1100304
-1100320
-1100338
-1100346
-1100379
-1100403
-1100452
-1100502
-1100601
-1100700
-1100809
-1100908
-1100924
-1100940
-1101005
-1101104
-1101203
-1101302
-1101401
-1101435
-1101450
-1101468
-1101476
-1101484
-1101492
-1101500
+1100015	"Normalizado"	"teste"	"bacana"
+1100023	"Normalizado"	"teste"	"bacana"
+1100031	"Normalizado"	"teste"	"bacana"
+1100049	"Normalizado"	"teste"	"bacana"
+1100056	"Normalizado"	"teste"	"bacana"
+1100064	"Normalizado"	"teste"	"bacana"
+1100072	"Normalizado"	"teste"	"bacana"
+1100080	"Normalizado"	"teste"	"bacana"
+1100098	"Normalizado"	"teste"	"bacana"
+1100106	"Normalizado"	"teste"	"bacana"
+1100114	"Normalizado"	"teste"	"bacana"
+1100122	"Normalizado"	"teste"	"bacana"
+1100130	"Normalizado"	"teste"	"bacana"
+1100148	"Normalizado"	"teste"	"bacana"
+1100155	"Normalizado"	"teste"	"bacana"
+1100189	"Normalizado"	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	""
+1100205	"Normalizado"	"teste"	"bacana"
+1100254	"Normalizado"
+1100262	"Normalizado"
+1100288	"Normalizado"
+1100296	"Normalizado"
+1100304	"Normalizado"
+1100320	"Normalizado"
+1100338	"Normalizado"
+1100346	"Normalizado"
+1100379	"Normalizado"
+1100403	"Normalizado"
+1100452	"Normalizado"
+1100502	"Normalizado"
+1100601	"Normalizado"
+1100700	"Normalizado"
+1100809	"Normalizado"
+1100908	"Normalizado"
+1100924	"Normalizado"
+1100940	"Normalizado"
+1101005	"Normalizado"
+1101104	"Normalizado"
+1101203	"Normalizado"
+1101302	"Normalizado"
+1101401	"Normalizado"
+1101435	"Normalizado"
+1101450	"Normalizado"
+1101468	"Normalizado"
+1101476	"Normalizado"
+1101484	"Normalizado"
+1101492	"Normalizado"
+1101500	"Normalizado"
