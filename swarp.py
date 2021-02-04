@@ -8,18 +8,29 @@ Instalação das dependências:
     pip install paramiko getopt
 Utilização: 
     python swarp.py -r <remoteip> -p <sshport> -u <user>
-    python swarp.py --remote=<remoteip> --port=<sshport> --user=<user>
+    python swarp.py 
+    --remote=<remoteip> 
+    --port=<sshport> 
+    --user=<user>
     
 wr: Clayton G. C. Santos
 '''
 
-import paramiko, sys, getopt, re, time, subprocess, getpass, socket
+import paramiko
+import sys
+import getopt
+import re
+import time
+import subprocess
+import getpass
+import socket
 from subprocess import check_output
 
-#
 def checkInfo(ip):
     try:
-        text=check_output("wmic /node:%s computersystem get username, Name, Manufacturer" % (ip), timeout=1, stderr=subprocess.STDOUT).decode("cp858") 
+        text=check_output("wmic /node:%s computersystem get username,\
+        Name, Manufacturer" % (ip), timeout=1, stderr=subprocess.STDOUT)\
+        .decode("cp858") 
         fields = text.splitlines()[2] # retira cabeçalho wmic
         print ("\t" + '\t'.join(fields.split())) #tabula dados recuperados
     except subprocess.TimeoutExpired as e:
@@ -47,7 +58,8 @@ def main(argv):
     
     else:
         try:
-            opts, args = getopt.getopt(argv,"hr:p:u:s:",["remote=","port=","user=","password=",])
+            opts, args = getopt.getopt(argv,"hr:p:u:s:",["remote=",\
+            "port=","user=","password=",])
         except getopt.GetoptError:
             getHelp(True)
         
@@ -92,9 +104,11 @@ def main(argv):
                 print(line)
                 
         #imprime cabeçalho dos dados apresentados
-        print("Endereço IP\tMAC\t\tVLAN\tInterface\tAging\tTipo\tFab.\tNome\tUsuário")
+        print("Endereço IP\tMAC\t\tVLAN\tInterface\
+        \tAging\tTipo\tFab.\tNome\tUsuário")
                 
-        #envia os comandos em sequência para o console, desabilitando o --more--
+        # Envia os comandos em sequência para o console, 
+        # desabilitando o --more--
         channel.send("screen-length disable\n display arp all\n")
         time.sleep(3)
         output=channel.recv(6024)
